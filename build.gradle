@@ -21,6 +21,15 @@ allprojects {
     }
 }
 
+ext {
+    retrofitVersion = '2.4.0'
+    okhttpVersion = '3.11.0'
+    moxyXVersion = '1.0.13'
+    toothpickVersion = '2.1.0'
+    ciceroniVersion = '5.0.0'
+    timberVersion = "4.7.1"
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MultitranApp</string>
+    <string-array name="languages">
+        <item>Русский</item>
+        <item>Английский</item>
+        <item>Немецкий</item>
+        <item>Французский</item>
+    </string-array>
+    <string name="query">Введите слово</string>
+    <string name="translate_action">Перевести</string>
+    <string name="empty_word_to_translate">Введите слово для перевода</string>
+    <string name="enter_the_word_in_cyrillic">Введите слово кириллицей</string>
+    <string name="enter_the_word_in_latin_characters">Введите слово латинскими буквами</string>
+    <string name="network_error">Ошибка при запросе к серверу</string>
+    <string name="your_query">Ваш запрос:</string>
+    <string name="target_language">Язык перевода:</string>
+    <string name="nothing_found">Ничего не найдено</string>
 </resources>
